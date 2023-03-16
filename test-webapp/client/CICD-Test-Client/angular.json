@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "test-project": {
+    "CICD-Test-Client": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/test-project",
+            "outputPath": "dist/cicd-test-client",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "test-project:build:production"
+              "browserTarget": "CICD-Test-Client:build:production"
             },
             "development": {
-              "browserTarget": "test-project:build:development"
+              "browserTarget": "CICD-Test-Client:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "test-project:build"
+            "browserTarget": "CICD-Test-Client:build"
           }
         },
         "test": {
