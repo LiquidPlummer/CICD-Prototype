@@ -1,12 +1,12 @@
-package com.revature.TestServer;
+package com.revature.test;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication(scanBasePackages =
-		"com.revature.TestServer.Controllers, " +
-		"com.revature.TestServer.Repositories" +
-		"com.revature.TestServer.Services")
+		"com.revature.test.Controllers, " +
+		"com.revature.test.Repositories, " +
+		"com.revature.test.Services")
 public class TestServerApplication {
 
 	public static void main(String[] args) {

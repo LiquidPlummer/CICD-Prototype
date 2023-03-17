@@ -1,6 +1,7 @@
-package com.revature.TestServer.Controllers;
+package com.revature.test.controllers;
 
-import com.revature.TestServer.Services.TestService;
+import com.revature.test.models.TestModel;
+import com.revature.test.services.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -17,8 +18,10 @@ public class TestController {
 
     @GetMapping(value = "/ping")
     @ResponseStatus(HttpStatus.OK)
-    public @ResponseBody String ping() {
-        return "{\"thing\": \"pong!\"}";
+    public @ResponseBody TestModel ping() {
+        return testService.logPing();
     }
+
+
 
 }
