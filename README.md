@@ -150,7 +150,7 @@ Set Git installation in jenkins config
 /usr/bin/git
 ```
 
-### [Install mvn](https://docs.aws.amazon.com/neptune/latest/userguide/iam-auth-connect-prerq.html)
+### [Install Maven](https://docs.aws.amazon.com/neptune/latest/userguide/iam-auth-connect-prerq.html)
 [old - same procedure](https://awswithatiq.com/how-to-install-apache-maven-on-amazon-linux-2/)
 ```
 sudo yum update -y  
