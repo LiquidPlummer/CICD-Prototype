@@ -43,7 +43,7 @@ Applied to EC2 server. Necessary to allow copying to/from S3 buckets using AWS S
 }
  ```
  ### IAM Role Trust Relationship
- ```
+ ```JSON
  {
     "Version": "2012-10-17",
     "Statement": [
