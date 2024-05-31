@@ -1,5 +1,5 @@
 # CICD-Prototype
-A prototype CICD pipeline for standardized P3 CICD
+A prototype CICD pipeline for standardized P3 CICD     
 
 ## Outline
  - EC2 for Jenkins build server and to host APIs. Server probably needs to be medium or bigger, anything smaller has a tendency to freeze when running a build.
